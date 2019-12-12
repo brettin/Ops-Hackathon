@@ -1,0 +1,22 @@
+# Set up your python environment
+# ------------------------------
+
+# Download the Anaconda installer
+# curl -o Anaconda2-4.3.1-MacOSX-x86_64.sh https://repo.anaconda.com/archive/Anaconda3-2019.10-MacOSX-x86_64.sh
+
+# Make the installer executable
+chmod u+x ./Anaconda3-2019.10-MacOSX-x86_64.sh
+
+# Run the installer, accepting the defaults.
+./Anaconda3-2019.10-MacOSX-x86_64.sh
+
+# Add anaconda2/bin to your path (assumes default install location)
+export PATH=$HOME/anaconda3/bin:$PATH
+
+# Install additonal modules not shipped with Anaconda
+conda install tensorflow
+conda install hdf5
+conda install keras
+conda install scikit-learn
+conda install pandas
+
