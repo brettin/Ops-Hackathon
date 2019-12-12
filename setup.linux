@@ -2,7 +2,7 @@
 # ------------------------------
 
 # Download the Anaconda installer
-# curl -o Anaconda3-2019.10-Linux-x86_64.sh https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+curl -o Anaconda3-2019.10-Linux-x86_64.sh https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 
 # Make the installer executable
 chmod u+x ./Anaconda3-2019.10-Linux-x86_64.sh
@@ -10,7 +10,7 @@ chmod u+x ./Anaconda3-2019.10-Linux-x86_64.sh
 # Run the installer, accepting the defaults.
 ./Anaconda3-2019.10-Linux-x86_64.sh
 
-# Add anaconda2/bin to your path (assumes default install location)
+# Add anaconda3/bin to your path (assumes default install location)
 export PATH=$HOME/anaconda3/bin:$PATH
 
 # Install additonal modules not shipped with Anaconda
