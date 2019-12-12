@@ -14,7 +14,7 @@ chmod u+x ./Anaconda3-2019.10-MacOSX-x86_64.sh
 export PATH=$HOME/anaconda3/bin:$PATH
 
 # Install additonal modules not shipped with Anaconda
-conda install tensorflow
+conda install tensorflow=1.14
 conda install hdf5
 conda install keras
 conda install scikit-learn
